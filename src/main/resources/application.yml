@@ -1,10 +1,10 @@
 spring:
   application:
-    name: app
+    name: emailapp
   datasource:
     url: jdbc:postgresql://localhost:5432/emailapp
     username: postgres
-    password: kishore
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
   jpa:
     generate-ddl: true
